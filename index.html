@@ -3,10 +3,37 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <script src="main.js"></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <title>Tic Tac Toe</title>
     </head>
 
     <body>
+        <main id="container"></div>
+            <section id="instructions">
+                <h1>Rock'n Paper & Scissors</h1>
+                <p>
+                    Salut, monsieur! Are you ready for the ultimate game of rock'n paper 
+                    & scissors? Choose one and see who wins. You or the computer end boss, wahaha.
+                </p>
+                <p>
+                    The first one who wins 5 rounds, is the winner.
+                </p>
+            </section>
 
+            <section id="selection">
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+            </section>
+
+            <section id="score">
+                <div id="wrapper-player-score">Your score: <p id="player-score">0</p></div>
+                <div id="wrapper-computer-score">The computer's sore: <p id="computer-score">0</p></div>
+    
+                <div id="result-board"></div>
+            </section>
+        </main>
     </body>
 </html>
+
+<script src="main.js"></script>
